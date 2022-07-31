@@ -1,0 +1,10 @@
+k8s version   =>kubectl version
+
+to excute k8s file => kubectl apply -f <filename.extension>         ex :  kubectl apply -f platforms-depl.yaml   (-depl => mean that file at deployment)
+to list deployment files at k8s => kubectl get deployments 
+to list all pods => kubectl get pods    
+to delete deployment file => delete deployment <filename>         ex : kubectl delete deployment platforms-depl
+
+to excute service => kubectl  apply -f <filename.extension>        ex : kubectl apply -f platforms-np-srv.yaml  (-srv => mean that file at services)  
+to list all services => kubectl get services
+ 
